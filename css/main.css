@@ -2,9 +2,73 @@
 ============================================================
 ============================================================*/
 
+header img{
+    min-width: 100px;
+    width: 20%;   
+    float: left;
+}
 
-/* HEADER ============================== */
+#container {
+    max-width: 1200px;
+    margin: auto;
+}
 
-/* ABOUT ============================== */
+header {
+    width: 100%;
+    font-family: 'Lobster', cursive;
+}
+header > h1{
+    position: absolute;
+    right: 20%;
+    clear: both;
+    margin-top: 2em;
+    font-size: 50px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+   }
+h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+}
+h2{
+    font-size: 2em;
+}
+#main {
+    position: relative;
+    top: 300px;
+    width: 1200px;
+    height: 100%;
+    padding: 3em;
+    background-color: #ccc;
+}
+h3{
+    font-size: 1.75em;
+}
+.intro {
+    padding: 2em;
+}
 
-/* COMPONENTS ============================== */
+section {
+    padding: 1em;
+    max-width: 1150px;
+    height: auto;
+    background-color: #333;
+    color: #ddd;
+}
+code{
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+section img {
+    position: relative;
+    margin-left: 50%;
+    left: -350px;
+}
+h4{
+    font-size: 1.25em
+}
