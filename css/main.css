@@ -18,6 +18,7 @@ header {
     font-family: 'Lobster', cursive;
 }
 header > h1{
+    color: #294443;
     position: absolute;
     right: 20%;
     clear: both;
@@ -27,6 +28,7 @@ header > h1{
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    background-color: #ffe97d;
    }
 h2, h3, h4, h5, h6 {
     font-family: 'Lobster', cursive;
@@ -40,12 +42,14 @@ h2{
     font-size: 2em;
 }
 #main {
+    border-radius: 1em;
     position: relative;
     top: 300px;
     width: 1200px;
     height: 100%;
     padding: 3em;
-    background-color: #ccc;
+    color: #ffe97d;
+    background-color: #4c7f7f;
 }
 h3{
     font-size: 1.75em;
@@ -55,11 +59,12 @@ h3{
 }
 
 section {
+    border-radius: 1em;
     padding: 1em;
     max-width: 1150px;
     height: auto;
-    background-color: #333;
-    color: #ddd;
+    background-color: #294443;
+    color: #ffe97d;
     margin-bottom: 2em;
 }
 code{
@@ -78,4 +83,19 @@ section img {
 }
 h4{
     font-size: 1.25em
+}
+
+
+
+.button {
+    background-color: #ffe97d;
+    color: #4c7f7f;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 2em;
+    padding: 1.5em;
+    width: 10em;
+    display: block;
+    margin: auto;
+    text-align: center;
 }

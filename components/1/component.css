@@ -2,3 +2,51 @@
 ============================================================
 ============================================================*/
 
+header{
+	width: 1200px;
+	height: 300px;
+	background-color: #CBF4E8;
+	margin: auto;
+}
+img{
+    width:100%;
+}
+div{
+    width: 100px;
+    text-align: center;
+}
+.logo{
+    width: 200px;
+}
+a{
+    text-align: center;
+}
+#home{
+    position:relative;
+    top:100px;
+    left:150px;
+}
+#services{
+    position: relative;
+    bottom: 20px;
+    left: 350px;
+}
+#logo{
+    width: 200px;
+    position: relative;
+    bottom: 150px;
+    left: 500px;
+}
+#work{
+    position: relative;
+    bottom: 350px;
+    left: 750px;
+}
+#contact{
+    position: relative;
+    bottom: 480px;
+    left: 950px;
+}
+caption {
+	text-align: center;
+}
