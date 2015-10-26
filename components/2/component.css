@@ -1,4 +1,32 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
 
+#container{
+  width: 1000px;
+  background-color: #ccc;
+  height: 300px;
+  margin: auto;
+}
+.subnav{
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  margin-top: 0px;
+  text-align: center;
+}
+#subnav1{
+  background-color: #ffaaaa;
+  margin: 0px 40px;
+}
+#subnav2{
+  background-color: #aaffaa;
+  margin: 0px 40px 0px 0px;
+}
+#subnav3{
+  background-color: #aaaaff;
+  margin: 0px 40px 0px 0px;
+}
+#subnav4{
+  background-color: #ffaaff;
+}
