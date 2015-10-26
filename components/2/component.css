@@ -5,12 +5,12 @@
 #container{
   width: 1000px;
   background-color: #ccc;
-  height: 300px;
+  height: 800px;
   margin: auto;
 }
 .subnav{
   width: 200px;
-  height: 300px;
+  height: 800px;
   display: inline-block;
   margin-top: 0px;
   text-align: center;
@@ -29,4 +29,15 @@
 }
 #subnav4{
   background-color: #ffaaff;
+}
+.subnav img{
+  width: 100%;
+}
+.subnav a{
+    padding: 1em;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
 }
